@@ -56,7 +56,7 @@ public class HelloXActivity extends AppCompatActivity implements View.OnClickLis
     @Override
     public void onClick(View view) {
         //When user presses the button, the button text is updated with the current date and time
-        //updateTime();
+        updateTime();
         button.setText("Bienvenido a tu primera App");
     }
 }
